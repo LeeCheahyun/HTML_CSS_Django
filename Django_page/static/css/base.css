@@ -1,0 +1,71 @@
+body{
+    margin: 0 auto;
+    background-image: url('../imgs/slide3.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+div#content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div#content h2{
+    margin: 30px;
+    background: blanchedalmond;
+    font-size: 50px;
+}
+
+div#sidev > ul{
+    display: flex;
+}
+
+div#sidev > ul > li{
+    list-style: none;
+    padding: 5px;
+}
+
+div#sidev > ul > li > a{
+    color: aliceblue;
+}
+
+ul.apps > li{
+    background: aqua;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div > ul.apps > li > a{
+    color: black;
+    font-size: 20px;
+}
+
+div.section > ul > li{
+    background: blanchedalmond;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+}
+
+div.section > ul > li > a{
+    color: black;
+    font-size: 20px;
+}
+
+div.section > h1{
+    background: blanchedalmond;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    color: black;
+}
+
+div.section > form > label{
+    background: aqua;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+}
